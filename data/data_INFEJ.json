@@ -1,0 +1,62 @@
+{
+    "s1": [
+        ["Educación Física I","DEW-100",1,"HUM"],
+        ["Humanístico I","HRW-132",2,"HUM"],
+        ["Introducción a la Física","FIS-100",3,"PC"],
+        ["Introducción a la Ingeniería","IWG-101",2,"TIN"],
+        ["Matemáticas I","MAT-021",5,"PC"],
+        ["Química y Sociedad","QUI-010",3,"PC"]
+    ],
+    "s2": [
+        ["Educación Física II","DEW-101",1,"HUM",["DEW-100"]],
+        ["Física General I","FIS-110",5,"PC",["MAT-021","FIS-100"]],
+        ["Humanístico II","HRW-133",2,"HUM"],
+        ["Matemáticas II","MAT-022",5,"PC",["MAT-021"]],
+        ["Programación","IWI-131",3,"FI"]
+    ],
+    "s3": [
+        ["DEPORTES","DEW-0",1,"HUM",["DEW-101"]],
+        ["ESTRUCTURA DE DATOS","ILI-134",4,"FI",["IWI-131"]],
+        ["Física General II","FIS-120",4,"PC",["MAT-022","FIS-110"]],
+        ["FUNDAMENTOS DE INFORMATICA I","ILI-152",4,"FI",["IWI-131","MAT-021"]],
+        ["INGLES CIENTIFICO TECNOLOGICO I","HCW-310",1,"HUM"],
+        ["MATEMATICA III","MAT-013",4,"PC",["MAT-022"]]
+    ],
+    "s4": [
+        ["ADMINISTRACION GENERAL","IWN-261",3,"IND"],
+        ["FUNDAMENTOS INFORMATICA II","ILI-153",3,"FI",["ILI-152"]],
+        ["INGLES CIENTIFICO TECNOLOGICO II","HCW-311",1,"HUM",["HCW-310"]],
+        ["MATEMATICA IV","MAT-014",4,"PC",["MAT-013"]],
+        ["RECUPERACION DE INFORMACION","ILI-135",4,"SD",["ILI-134"]],
+        ["TEORIA DE SISTEMAS","ILI-260",3,"SD"]
+    ],
+    "s5": [
+        ["ARQUITECTURA DE COMPUTADORES","ILI-245",4,"TIC",["IWI-131","ILI-152"]],
+        ["BASES DE DATOS","ILI-239",4,"IS",["ILI-135"]],
+        ["Economía IA","IWN-170",3,"IND"],
+        ["LENGUAJES DE PROGRAMACION","ILI-253",4,"FI",["ILI-134","ILI-153"]],
+        ["SISTEMAS DE INFORMACION\t","ILI-270",3,"SD",["ILI-260","IWN-261"]]
+    ],
+    "s6": [
+        ["ELECTIVO I","INF-311",3,"ELEC"],
+        ["ESTADISTICA COMPUTACIONAL","ILI-280",4,"AN",["MAT-013"]],
+        ["FUNDAMENTOS DE INGENIERIA DE SOFTWARE","ILI-236",3,"IS",["ILI-239"]],
+        ["INFORMACION Y CONTROL FINANCIERO","IWN270",3,"IND",["IWN-170"]],
+        ["SISTEMAS OPERATIVOS","ILI-246",4,"TIC",["ILI-253","ILI-245"]]
+    ],
+    "s7": [
+        ["Libre I","INF-1",1,"HUM"],
+        ["INFORMATICA Y SOCIEDAD","ILI-276",2,"TIN"],
+        ["INGENIERIA DE SOFTWARE","ILI-225",3,"IS",["ILI-236"]],
+        ["REDES DE COMPUTADORES","ILI-256",4,"TIC",["ILI-246","ILI-245"]],
+        ["SISTEMAS Y ORGANIZACIONES","ILI-264",3,"SD",["ILI-270"]],
+        ["TALLER DE ANALISIS DE SISTEMAS","IEI-234",4,"TIN",["ILI-236","ILI-270"]]
+    ],
+    "s8": [
+        ["Libre II","INF-2",1,"HUM"],
+        ["COMPORTAMIENTO, ORGANIZACION Y TECNOLOG.","ILI-268",2,"SD",["ILI-264"]],
+        ["TALLER DE DISEÑO DE SISTEMAS","IEI235",4,"TIN",["IEI-234"]],
+        ["TALLER DE SISTEMAS DE COMPUTACION","ILI-258",4,"TIC",["ILI-256"]],
+        ["TALLER DE TITULACION","IEI-311",6,"TIN",["ILI-225"]]
+    ]
+}
