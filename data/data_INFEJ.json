@@ -1,7 +1,7 @@
 {
     "s1": [
         ["Educación Física I","DEW-100",1,"HUM"],
-        ["Humanístico I","HRW-132",2,"HUM"],
+        ["Humanístico I","HRW-1",1,"HUM"],
         ["Introducción a la Física","FIS-100",3,"PC"],
         ["Introducción a la Ingeniería","IWG-101",2,"TIN"],
         ["Matemáticas I","MAT-021",5,"PC"],
@@ -10,7 +10,7 @@
     "s2": [
         ["Educación Física II","DEW-101",1,"HUM",["DEW-100"]],
         ["Física General I","FIS-110",5,"PC",["MAT-021","FIS-100"]],
-        ["Humanístico II","HRW-133",2,"HUM"],
+        ["Humanístico II","HRW-2",1,"HUM",["HRW-1"]],
         ["Matemáticas II","MAT-022",5,"PC",["MAT-021"]],
         ["Programación","IWI-131",3,"FI"]
     ],
@@ -33,7 +33,7 @@
     "s5": [
         ["ARQUITECTURA DE COMPUTADORES","ILI-245",4,"TIC",["IWI-131","ILI-152"]],
         ["BASES DE DATOS","ILI-239",4,"IS",["ILI-135"]],
-        ["Economía IA","IWN-170",3,"IND"],
+        ["Economía IA","IWN-170",3,"IND",["MAT-013"]],
         ["LENGUAJES DE PROGRAMACION","ILI-253",4,"FI",["ILI-134","ILI-153"]],
         ["SISTEMAS DE INFORMACION\t","ILI-270",3,"SD",["ILI-260","IWN-261"]]
     ],
