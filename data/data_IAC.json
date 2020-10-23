@@ -1,0 +1,79 @@
+{
+   "s1": [
+      ["Educación Física I","DEW100",1,2,"PC",[],""],
+      ["Inglés Básico","HCW319",2,3,"HUM",[],""],
+      ["Introducción a la Física","FIS100",3,6,"FIS",[],""],
+      ["Introducción a la Industria Aeronáutica","ALA101",2,3,"ACA",[],""],
+      ["Matemática I","MAT011",5,8,"MAT",[],""],
+      ["Programación","IWI131",3,5,"PC",[],""]
+   ],
+   "s2": [
+      ["Educación Física II","DEW101",1,2,"PC",["DEW100"],""],
+      ["Física Básica I","FIS109",5,7,"FIS",["FIS100","MAT011"],""],
+      ["Inglés medio I","HCW321",2,3,"HUM",["HCW319"],""],
+      ["Matemática II","MAT012",5,7,"MAT",["MAT011"],""],
+      ["Química y Sociedad","QUI010",3,5,"PC",[],""]
+   ],
+   "s3": [
+      ["Deporte","DEW0",1,2,"PC",["DEW101"],""],
+      ["Física Básica II","FIS119",3,7,"FIS",["FIS109","MAT012"],""],
+      ["Humanístico I","HRW1",2,3,"HUM",[],""],
+      ["Inglés medio II","HCW322",2,3,"HUM",["HCW321"],""],
+      ["Introducción a la Electrónica Aplicada","ALA200",3,5,"ACA",["FIS100","MAT012"],""],
+      ["Introducción a la Termodinámica","ALA205",3,5,"ACA",["QUI010","MAT012","FIS109"],""],
+      ["Matemática III","MAT013",4,7,"MAT",["MAT012"],""]
+   ],
+   "s4": [
+      ["Administración de Empresas","ICN262",3,5,"IND",[],""],
+      ["Aeronaves: Estructura y Sistemas","ALA201",3,5,"ACA",["FIS109","ALA101"],""],
+      ["Física Básica III","FIS129",3,7,"FIS",["FIS119"],""],
+      ["Humanístico II","HRW2",2,3,"HUM",[],""],
+      ["Inglés avanzado I","HCW323",2,3,"HUM",["HCW322"],""],
+      ["Matemática IV","MAT014",4,6,"MAT",["MAT013"],""]
+   ],
+   "s5": [
+      ["Estadística","MAT031",3,5,"MAT",["MAT013"],""],
+      ["Humanístico III","HRW3",2,3,"HUM",[],""],
+      ["Información y Control Financiero","IWN270",3,5,"IND",["ICN262"],""],
+      ["Inglés avanzado II","HCW324",2,3,"HUM",["HCW323"],""],
+      ["Introducción a la Mec de Fluidos y Calor","ALA206",3,5,"ACA",["ALA205","FIS119"],""],
+      ["Microeconomía","ILN210",3,5,"IND",["MAT013"],""]
+   ],
+   "s6": [
+      ["Aerodinámica y Mecánica del Vuelo","ALA206",3,5,"ACA",["ALA201"],""],
+      ["Gestión de Investigación de Operaciones","ILN250",4,6,"IND",["MAT031","ILN210"],""],
+      ["Ingeniería Económica","ILN230",3,5,"IND",["IWN270"],""],
+      ["Inglés conversación I","HCW325",2,3,"HUM",["HCW324"],""],
+      ["Meteorología","ALA203",3,5,"ACA",["ALA206"],""],
+      ["Recursos Humanos","ICN323",3,5,"IND",["ICN262"],""]
+   ],
+   "s7": [
+      ["Gestión y Operación de Aeropuertos","ALA302",3,5,"ACA",["ICN262"],""],
+      ["Legislación Aeronáutica","ALA202",3,5,"ACA",[],""],
+      ["Legislación Empresarial","ICN324",3,5,"IND",["ICN262"],""],
+      ["Macroeconomía","ILN211",3,5,"IND",["ILN210"],""],
+      ["Marketing","ICN321",3,5,"IND",["ILN210"],""],
+      ["Propulsión","ALA301",2,3,"ACA",["FIS109"],""]
+   ],
+   "s8": [
+      ["Comercio Internacional Aeronáutico","ALA303",3,5,"ACA",["ILN230"],""],
+      ["Evaluación de Proyectos Generales","ICN338",3,5,"IND",["ILN230","ILN210"],""],
+      ["Finanzas","ICN320",3,4,"IND",["IWN270"],""],
+      ["Gestión de Operaciones de Empresas Aeronáuticas","ACA305",3,5,"ACA",["ILN250","ALA302"],""],
+      ["Planificación y Diseño de Aeropuertos","ALA304",4,7,"ACA",["ALA302"],""]
+   ],
+   "s9": [
+      ["Electivo ACA I","ACA11",3,5,"ACA",[],""],
+      ["Electivo Libre I","ACA1",3,5,"ACA",[],""],
+      ["Electivo Libre II","ACA2",3,5,"ACA",[],""],
+      ["Gestión de Calidad de Servicios","ACA301",3,5,"ACA",["ICN262"],""],
+      ["Gestión del Espacio Aéreo","ACA302",3,5,"ACA",["ALA304","ALA202"],""],
+      ["Taller de Título I","ICN386",2,3,"IND",["ICN321"],""]
+   ],
+   "s10": [
+      ["Electivo ACA II","ACA12",3,5,"ACA",[],""],
+      ["Gestión de Mantención de Flota","ACA303",3,5,"ACA",["HCW323"],""],
+      ["Gestión Estratégica","ICN322",3,5,"ACA",["ICN320","ICN323","ICN321"],""],
+      ["Seguridad Operacional","ACA206",3,5,"ACA",["ACA301"],""]
+   ]
+}
