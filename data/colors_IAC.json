@@ -1,0 +1,8 @@
+{
+	"PC": ["#C4C4C4", "Plan Común"],
+	"HUM": ["#FFF9A3", "Humanista"],
+	"IND": ["#FFAE57", "Industrias"],
+	"FIS": ["#A2D696", "Física"],
+	"MAT": ["#46B7D4", "Matemática"],
+	"ACA": ["#00A0A6", "Ciencias Aeronáuticas"]
+}
